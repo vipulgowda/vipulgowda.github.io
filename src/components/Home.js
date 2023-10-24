@@ -18,6 +18,8 @@ import Sass from "../assets/Sass.jpeg";
 import Tailwind from "../assets/tailwind.jpeg";
 import Vite from "../assets/vite.jpeg";
 import TechCard from "./TechCard";
+import Experience from "./Experience";
+import Connect from "./Connect";
 
 const ImagesCard = [
   {
@@ -90,7 +92,7 @@ const ImagesCard = [
 export default function Home() {
   return (
     <>
-      <h1 className="font-bold text-2xl mb-8 tracking-tighter">
+      <h1 className="font-bold text-2xl md:mb-4 lg:mb-8 mb-2 tracking-tighter">
         hello, I'm vipul
       </h1>
       <section>
@@ -127,7 +129,7 @@ export default function Home() {
       </section>
       <section>
         <div className="columns-2 sm:columns-3 gap-4 my-8">
-          <div class="relative h-40 mb-4 mt-16">
+          <div class="relative lg:h-40 sm:h-20 lg:mb-4 mb-2 lg:mt-16 mt-4 ">
             <img
               alt="My Hike in portland"
               className="rounded-lg object-cover"
@@ -149,23 +151,29 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="text-l flex items-center justify-center p-12">
+        <div className="text-l flex items-center justify-center lg:p-12 sm:p-8">
           <p className="prose prose-neutral dark:prose-invert">
             Just a collection of my personal photos!!!!
           </p>
         </div>
       </section>
       <section>
-        <div className="">
-          <h2 className="font-bold text-2xl mb-8 tracking-tighter">
+        <div>
+          <h2 className="font-bold text-2xl lg:mt-0 mt-4 mb-8 tracking-tighter">
             Technologies I'm familiar with
           </h2>
-          <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-12">
+          <div class="grid grid-cols-3 lg:grid-cols-4 gap-12">
             {ImagesCard.map((card) => (
               <TechCard key={card.id} cardImage={card.src} />
             ))}
           </div>
         </div>
+      </section>
+      <section>
+        <Experience/>
+      </section>
+      <section>
+        <Connect/>
       </section>
     </>
   );

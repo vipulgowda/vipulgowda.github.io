@@ -1,7 +1,11 @@
-export default function Blog(){
+export default function Blog() {
   return (
-    <p>
-      This is Blog page
-    </p>
-  )
+    <div class="max-w-lg mx-auto bg-white shadow-md rounded-lg overflow-hidden">
+      <div class="p-4">
+        <p class="text-gray-600">
+          I will be posting content on web development and data engineering.
+        </p>
+      </div>
+    </div>
+  );
 }

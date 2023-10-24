@@ -5,7 +5,7 @@ export default function Navbar() {
   const currentTab = location.pathname.slice(1);
 
   return (
-    <aside className="-ml-[8px] mb-16 tracking-tight">
+    <aside className="-ml-[8px] md:mb-8 lg:mb-16 mb-2 tracking-tight">
       <div className="lg:sticky lg:top-20">
         <nav className="flex flex-row items-start relative px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative">
           <div className="flex flex-row space-x-0 pr-10">
