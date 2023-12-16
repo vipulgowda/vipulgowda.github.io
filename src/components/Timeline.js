@@ -18,27 +18,39 @@ const Timeline = () => {
             The Modern Data Company
           </h3>
           <div className="flex justify-between">
-            <h4 className="pl-2 text-xs lg:text-base">Senior Software Engineer</h4>
+            <h4 className="pl-2 text-xs lg:text-base">
+              Senior Software Engineer
+            </h4>
             <p className="italic text-xs ">Oct 2021 - Sept 2023</p>
           </div>
         </div>
         <div className="col-span-6 lg:ml-32">
           <p>
-            I was working towards building accessible Data Platforms for
-            business users and data analysts. During my tenure I have worked
-            with product managers and design team to build data applications. As
-            an early startup, I was given ownership of designing and building
-            data products. I got an opportunity to lead a team to develop User
-            Interface for workbench, data dashboards, creating workflows in the
-            frontend and build editors for SQL and Neo4j. Held few internal tech
-            talks on CSS stylesheets and bundling systems. Involved with
-            Engineering team to collaborate on design and tradeoff decision.
-            Published VS code extensions which primarily helped data engineers
-            write YAML file. The extension provided prefilled templates with
-            options to reduce the development process. Deployed npm library to
-            unify SSO authentication for The Modern Data apps. This reduced the
-            sign in process for customers and developers could integrate the
-            library with required configs.
+            I played a key role in enhancing the efficiency of SQL query writing
+            by implementing a web-based SQL editor featuring an autocomplete
+            feature. This initiative resulted in a significant 50% reduction in
+            the time required for crafting SQL queries. Additionally, I
+            collaborated with product managers to develop a proof of concept
+            (POC) for a data security tool, leveraging Role-Based Access Control
+            (RBAC) strategies to define roles and permissions. Within the data
+            catalog platform, I contributed to the system's metadata
+            accessibility by creating filters and implementing a logging
+            mechanism. This effort aimed to streamline the extraction of
+            critical information from the platform. To improve the Single
+            Sign-On (SSO) authentication process across data platforms, I
+            successfully deployed the "modern-auth" npm library. This
+            implementation not only achieved a commendable 30% reduction in
+            authentication development time but also ensured a consistent and
+            seamless authentication experience across different data platforms.
+            In order to fortify the development pipeline against potential
+            security threats, I integrated Snyk and conducted regular dependency
+            scans. This proactive approach enabled the identification and timely
+            addressing of known vulnerabilities present in third-party
+            libraries, thereby bolstering the overall security posture.
+            Furthermore, as part of the development process, I performed static
+            code analysis using ESLint. This comprehensive analysis helped
+            identify and address security issues early in the development
+            lifecycle, contributing to a more secure and robust codebase.
           </p>
         </div>
       </div>
@@ -62,7 +74,21 @@ const Timeline = () => {
         </div>
         <div className="col-span-6 lg:ml-32">
           <p>
-            I was working with business consultants to provide supply chain platform which was integrated with Hyperledger-fabric blockchain solution. Primarily I was involved in building REST APIs and create new user interface features. Technically I worked on databases to create tables, functions and procedures. Worked few times as data analyst to run few queries in database and fetch reports to business teams. Redesigned complete UI using Sass stylesheets and migrated react code to typescript. Wrote unit test cases to check different scenarios of inputs.
+            I significantly optimized data analysis processes by
+            implementing data visualization dashboards using D3.js. These
+            dashboards were designed to analyze orders and shipments, leading to
+            an impressive 80% reduction in the manual workload associated with
+            data analysis. Additionally, I took the initiative to develop and
+            deploy a front-end map visualization tool aimed at enhancing the
+            real-time monitoring efficiency and logistics coordination of orders
+            and shipments. This implementation proved instrumental in improving
+            overall operational visibility and coordination. To ensure the
+            robust security of our systems, I actively engaged in dynamic
+            testing using the OWASP ZAP tool. This approach involved simulating
+            real-world cyber-attacks to uncover potential security weaknesses.
+            By adopting this proactive testing strategy, I contributed to the
+            identification and subsequent mitigation of vulnerabilities,
+            reinforcing the security posture of the system.
           </p>
         </div>
       </div>
@@ -86,7 +112,24 @@ const Timeline = () => {
         </div>
         <div className="col-span-6 lg:ml-32">
           <p>
-            As new Software engineer fresh out of graduation, I was given tasks to learn bash, SQL, python and javascript. My work involved creating bash scripts and connect to remote servers and run SQLs to generate reports for stakeholders. Learnt a bunch of stuff and coordinated with other teams and onshore team members to lay down business requirements and convert it into technical documents. I was given a chance to work on frontend internal tool which provided path towards UI development for subsequent journey. Interacted with other team members to work on critical projects such GDPR, Security Compliance.
+            I played a key role in enhancing the efficiency and security of our
+            database transactions. I developed Python scripts to generate logs
+            for these transactions and implemented PGP encryption for secure
+            archival. This initiative not only ensured comprehensive tracking of
+            database activities but also improved the security of sensitive
+            transactional data. To streamline the debugging process and enhance
+            flexibility, I further contributed by developing bash scripts. These
+            scripts were designed to facilitate the debugging of logs and
+            seamlessly integrate with configuration files for dynamic use cases.
+            This approach not only improved the overall debugging efficiency but
+            also provided adaptability to different scenarios. In addition to my
+            technical contributions, I collaborated closely with
+            cross-functional teams to troubleshoot and debug the billing and
+            discounting system. Through effective teamwork, we successfully
+            identified and rectified issues, leading to substantial improvements
+            in the overall performance of the system. This collaborative effort
+            underscored my commitment to delivering solutions that positively
+            impact system functionality and user experience.
           </p>
         </div>
       </div>
