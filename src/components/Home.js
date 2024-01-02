@@ -15,11 +15,13 @@ import Postgres from "../assets/postgres.jpeg";
 import ReactImg from "../assets/ReactImg.jpeg";
 import ReduxImg from "../assets/ReduxImg.jpeg";
 import Sass from "../assets/Sass.jpeg";
+import Python from "../assets/python.png"
+import Neo from "../assets/Neo4j.png"
 import Tailwind from "../assets/tailwind.jpeg";
-import Vite from "../assets/vite.jpeg";
 import TechCard from "./TechCard";
 import Experience from "./Experience";
 import Connect from "./Connect";
+
 
 const ImagesCard = [
   {
@@ -32,24 +34,23 @@ const ImagesCard = [
   },
   {
     id: 3,
-    src: HTML,
+    src: Python
   },
   {
     id: 4,
-    src: CSS,
+    src: HTML,
   },
   {
     id: 5,
-    src: ReactImg,
+    src: CSS,
   },
   {
     id: 6,
-    src: ReduxImg,
+    src: ReactImg,
   },
-
   {
     id: 7,
-    src: Sass,
+    src: ReduxImg,
   },
   {
     id: 8,
@@ -57,23 +58,23 @@ const ImagesCard = [
   },
   {
     id: 9,
-    src: Vite,
-  },
-  {
-    id: 10,
     src: NodeJS,
   },
   {
-    id: 11,
+    id: 10,
     src: ExpressJS,
   },
   {
-    id: 12,
+    id: 11,
     src: Postgres,
   },
   {
-    id: 13,
+    id: 12,
     src: MongoDB,
+  },
+  {
+    id: 13,
+    src: Neo,
   },
   {
     id: 14,
