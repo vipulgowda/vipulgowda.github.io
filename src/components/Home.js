@@ -69,8 +69,8 @@ const ImagesCard = [
 export default function Home() {
   return (
     <>
-      <h1 className="font-bold text-2xl md:mb-4 lg:mb-8 mb-2 tracking-tighter">
-        hello, I'm vipul
+      <h1 className="font-bold text-4xl md:mb-4 lg:mb-8 mb-2 tracking-tighter">
+        hello, I am vipul
       </h1>
       <section>
         <p className="prose prose-neutral dark:prose-invert">
