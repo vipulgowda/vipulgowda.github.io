@@ -1,4 +1,4 @@
-import Hikeimage from "../assets/hike.jpeg";
+import Newphototaken from "../assets/profile_1.png";
 import SomeDayAtBar from "../assets/SomeDayAtBar.jpeg";
 import Profile from "../assets/Profile.jpeg";
 import AWS from "../assets/AWS.png";
@@ -14,79 +14,55 @@ import NodeJS from "../assets/NodeJS.jpeg";
 import Postgres from "../assets/postgres.jpeg";
 import ReactImg from "../assets/ReactImg.jpeg";
 import ReduxImg from "../assets/ReduxImg.jpeg";
-import Sass from "../assets/Sass.jpeg";
-import Python from "../assets/python.png"
-import Neo from "../assets/Neo4j.png"
+import Python from "../assets/python.png";
+import Neo from "../assets/Neo4j.png";
 import Tailwind from "../assets/tailwind.jpeg";
 import TechCard from "./TechCard";
 import Experience from "./Experience";
 import Connect from "./Connect";
-
+import Kube from "../assets/Kube.png";
+import Grpc from "../assets/Grpc.png";
+import Go from "../assets/Go.png";
 
 const ImagesCard = [
   {
-    id: 1,
-    src: TS,
+    src: Go,
   },
   {
-    id: 2,
-    src: JS,
+    src: Grpc,
   },
+  { src: TS },
+  { src: JS },
+  { src: Python },
+  { src: HTML },
+  { src: CSS },
+  { src: ReactImg },
+  { src: ReduxImg },
+  { src: Tailwind },
+  { src: NodeJS },
   {
-    id: 3,
-    src: Python
-  },
-  {
-    id: 4,
-    src: HTML,
-  },
-  {
-    id: 5,
-    src: CSS,
-  },
-  {
-    id: 6,
-    src: ReactImg,
-  },
-  {
-    id: 7,
-    src: ReduxImg,
-  },
-  {
-    id: 8,
-    src: Tailwind,
-  },
-  {
-    id: 9,
-    src: NodeJS,
-  },
-  {
-    id: 10,
     src: ExpressJS,
   },
   {
-    id: 11,
     src: Postgres,
   },
   {
-    id: 12,
     src: MongoDB,
   },
   {
-    id: 13,
     src: Neo,
   },
   {
-    id: 14,
     src: Docker,
   },
   {
-    id: 15,
     src: AWS,
   },
   {
-    id: 16,
     src: GCP,
+  },
+  {
+    src: Kube,
   },
 ];
 
@@ -98,23 +74,23 @@ export default function Home() {
       </h1>
       <section>
         <p className="prose prose-neutral dark:prose-invert">
-          I'm a frontend engineer and a critical problem solver. I'm currently
-          pursuing my master's in computer science at Portland State University,
-          and I'm expected to graduate in March 2025. Currently, I'm involved
-          with the
+          I am professional software engineer with over five years of work
+          experience. I am pursuing my master's in computer science at Portland
+          State University, and I'm expected to graduate in March 2025.
+          Currently, I am Software Engineer Intern at
           <span className="not-prose px-2 h-12">
             <a
-              href="https://cat.pdx.edu/"
+              href="https://www.conductorone.com/"
               target="_blank"
               rel="noreferrer"
               className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded p-1 text-sm inline-flex items-center leading-2 text-neutral-900 dark:text-neutral-100 no-underline"
             >
-              Computer Action Team
+              ConductorOne
             </a>
           </span>
-          at Portland State University. I am always on pursuit to solve
-          engineering problems and with previous experience as a Senior Software
-          Engineer at
+          in Portland focussing on distributed systems and security. I am always
+          on pursuit to solve engineering problems and with previous experience
+          as a Senior Software Engineer at
           <span className="not-prose px-2">
             <a
               href="https://themoderndatacompany.com/"
@@ -122,10 +98,9 @@ export default function Home() {
               rel="noreferrer"
               className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800 rounded p-1 text-sm inline-flex items-center leading-2 text-neutral-900 dark:text-neutral-100 no-underline"
             >
-              The Modern Data Company,
+              The Modern Data Company
             </a>
           </span>
-          I'm currently seeking summer internships for 2024
         </p>
       </section>
       <section>
@@ -134,7 +109,7 @@ export default function Home() {
             <img
               alt="My Hike in portland"
               className="rounded-lg object-cover"
-              src={Hikeimage}
+              src={Newphototaken}
             />
           </div>
           <div className="relative h-80 mb-4">
@@ -164,17 +139,17 @@ export default function Home() {
             Technologies I'm familiar with
           </h2>
           <div class="grid grid-cols-3 lg:grid-cols-4 gap-12">
-            {ImagesCard.map((card) => (
-              <TechCard key={card.id} cardImage={card.src} />
+            {ImagesCard.map((card, id) => (
+              <TechCard key={id} cardImage={card.src} />
             ))}
           </div>
         </div>
       </section>
       <section>
-        <Experience/>
+        <Experience />
       </section>
       <section>
-        <Connect/>
+        <Connect />
       </section>
     </>
   );
